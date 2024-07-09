@@ -9,6 +9,5 @@ class PageController extends Controller
     public function index()
     {
         $dati = config("data");
-        return view('home', $dati);
     }
 }
